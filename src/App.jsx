@@ -1,4 +1,5 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';import Sidebar from './components/Sidebar';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
 import Dashboard from './pages/Dashboard';
 import Inventory from './pages/Inventory';
 import Shipments from './pages/Shipments';
@@ -9,7 +10,7 @@ import Settings from './pages/Settings';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div style={{ display: 'flex', minHeight: '100vh', background: '#0f1117' }}>
         <Sidebar />
         <main style={{ marginLeft: '220px', flex: 1, minHeight: '100vh' }}>
@@ -24,6 +25,6 @@ export default function App() {
           </Routes>
         </main>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
