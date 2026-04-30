@@ -19,12 +19,10 @@ export default function Sidebar() {
       borderRight: '1px solid #1e2130', position: 'fixed', top: 0, left: 0, zIndex: 100
     }}>
       {/* Profile */}
-      <div style={{ padding: '0 20px 24px', textAlign: 'center', borderBottom: '1px solid #1e2130' }}>
-        <img src="https://i.pravatar.cc/80?img=12" alt="Alex Chen"
-          style={{ width: 64, height: 64, borderRadius: '50%', marginBottom: 8 }} />
-        <div style={{ fontWeight: 700, fontSize: 15 }}>Alex Chen</div>
-        <div style={{ color: '#64748b', fontSize: 12 }}>Store Manager</div>
-      </div>
+     <img src="/fengcha-inventory/avatar.jpg" alt="Ze Shi (Zane) Li"
+  style={{ width: 64, height: 64, borderRadius: '50%', marginBottom: 8, objectFit: 'cover' }} />
+<div style={{ fontWeight: 700, fontSize: 15 }}>Ze Shi (Zane) Li</div>
+<div style={{ color: '#64748b', fontSize: 12 }}>Store Manager</div>
 
       {/* Nav */}
       <nav style={{ flex: 1, padding: '16px 12px' }}>
