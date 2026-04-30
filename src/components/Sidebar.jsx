@@ -21,7 +21,7 @@ export default function Sidebar() {
       {/* Profile */}
     {/* Profile */}
 <div style={{ padding: '0 20px 24px', textAlign: 'center', borderBottom: '1px solid #1e2130' }}>
-  <img src="/fengcha-inventory/avatar.jpg" alt="Ze Shi (Zane) Li"
+  <img src="/fengcha-inventory/avatar.pgn" alt="Ze Shi (Zane) Li"
     style={{ 
       width: 64, 
       height: 64, 
