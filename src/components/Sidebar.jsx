@@ -19,18 +19,23 @@ export default function Sidebar() {
       borderRight: '1px solid #1e2130', position: 'fixed', top: 0, left: 0, zIndex: 100
     }}>
       {/* Profile */}
-    {/* Profile */}
+{/* Profile */}
 <div style={{ padding: '0 20px 24px', textAlign: 'center', borderBottom: '1px solid #1e2130' }}>
-  <img src="/fengcha-inventory/avatar.pgn" alt="Ze Shi (Zane) Li"
-    style={{ 
-      width: 64, 
-      height: 64, 
-      borderRadius: '50%', 
-      objectFit: 'cover',
-      objectPosition: 'center top',
-      display: 'block',
-      margin: '0 auto 8px auto'
-    }} />
+  <div style={{ 
+    width: 64, 
+    height: 64, 
+    borderRadius: '50%', 
+    overflow: 'hidden',
+    margin: '0 auto 8px auto'
+  }}>
+    <img src="/fengcha-inventory/avatar.png" alt="Ze Shi (Zane) Li"
+      style={{ 
+        width: '100%', 
+        height: '100%', 
+        objectFit: 'cover',
+        objectPosition: 'center center',
+      }} />
+  </div>
   <div style={{ fontWeight: 700, fontSize: 15 }}>Ze Shi (Zane) Li</div>
   <div style={{ color: '#64748b', fontSize: 12 }}>Store Manager</div>
 </div>
