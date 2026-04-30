@@ -19,7 +19,7 @@ export default function Sidebar() {
       borderRight: '1px solid #1e2130', position: 'fixed', top: 0, left: 0, zIndex: 100
     }}>
       {/* Profile */}
-     <img src="/fengcha-inventory/avatar.jpg" alt="Ze Shi (Zane) Li"
+     <img src="/fengcha-inventory/avatar.png" alt="Ze Shi (Zane) Li"
   style={{ width: 64, height: 64, borderRadius: '50%', marginBottom: 8, objectFit: 'cover' }} />
 <div style={{ fontWeight: 700, fontSize: 15 }}>Ze Shi (Zane) Li</div>
 <div style={{ color: '#64748b', fontSize: 12 }}>Store Manager</div>
